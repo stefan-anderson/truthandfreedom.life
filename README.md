@@ -1,5 +1,5 @@
 # truthandfreedom.life
 
-Free will is one of philosophy’s most enduring questions. If the universe from its creation is a unified whole, with consciousness as a fundamental aspect, what does it mean for our freedom?
+A structured exploration of free will across deterministic, emergent, and cosmic levels within a panpsychic monism, showing how agency arises in a conscious universe.
 
 http://truthandfreedom.life/
