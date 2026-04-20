@@ -23,8 +23,41 @@ media="(prefers-color-scheme: dark)">
 
     <meta name="description" content="Explore panpsychism, consciousness, free will and agency through deterministic, emergent, and cosmic levels in a unified metaphysical model.">
 
- <style>
+<style>
+   .top-ticker {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.85);
+  color: #fff;
+  padding: 10px 0;
+  font-size: 18px;
+  white-space: nowrap;
+  overflow: hidden;
+  z-index: 999999; /* <- THIS is the key */
+}
+
+
+@keyframes flash {
+  0%   { opacity: 1; }
+  50%  { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.scroll-text {
+  display: inline-block;
+  padding-left: 100%;
+  animation: ticker 12s linear infinite;
+}
+
+@keyframes ticker {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
         body {
+            padding-top: 60px;
             margin: 0;
             padding: 0;
             font-family: Georgia, serif;
@@ -102,6 +135,10 @@ media="(prefers-color-scheme: dark)">
 
 <div class="bg"></div>
 
+<div class="top-ticker">
+  <div class="scroll-text">Welcome to truth and freedom in life. We'll explain how consciousness and agency arises in non-duality. The idea is based on well established philosphy. No science can ever discover the secrets of nature..........!</div>
+</div>
+
 <div class="content">
 
     <h1>Levels of Free Will in a Structural Dual-Aspect Monism</h1>
@@ -114,7 +151,7 @@ media="(prefers-color-scheme: dark)">
     <h2>Introduction</h2>
     <p>
         Free will is one of philosophy’s most enduring questions. If the universe from its creation 
-        is a unified whole, with consciousness as a fundamentally derived propery, what does it imply for our freedom?
+        is a unified whole, with consciousness as a fundamental propery, what does it imply for our freedom?
     </p>
     <p>
         This article presents a framework of three levels of free will within a structural dual-aspect monism, 
@@ -150,7 +187,7 @@ media="(prefers-color-scheme: dark)">
 
     <h3>3. Cosmic Freedom (Ontological Level)</h3>
     <p>
-        On this level, the universe itself is a creative, conscious process. Our choices are not isolated—
+        On this level, the universe itself is a creative process. Our choices are not isolated—
         they are expressions of universal creativity. Individual will is a derivative of the universe’s 
         creative will, and nature possesses inherent creative freedom. This freedom manifests gradually 
         through history, with human actions forming a local channel of cosmic agency.
@@ -162,8 +199,8 @@ media="(prefers-color-scheme: dark)">
     </p>
     <ol>
         <li>Microscopic determinism – necessity rules fundamental processes.</li>
-        <li>Mesoscopic emergent self-determination – genuine but context-bound freedom.</li>
-        <li>Macroscopic cosmic creativity – individuals as expressions of universal freedom.</li>
+        <li>Mesoscopic emergent self-determination – genuine but context-bound agency.</li>
+        <li>Macroscopic cosmic creativity – individuals as expressions of universal creatibity.</li>
     </ol>
     <p>
         This view offers a richer understanding of free will: we are neither fully free nor fully bound. 
@@ -181,7 +218,7 @@ media="(prefers-color-scheme: dark)">
     </ul>
     <p>
         This synthesis connects classical and modern philosophy, offering a structured model for 
-        understanding free will in a conscious universe.
+        understanding free will in a fundamentally conscious universe.
     </p>
 
     <hr>
